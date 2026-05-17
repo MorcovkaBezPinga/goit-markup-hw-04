@@ -1,0 +1,127 @@
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header .container {
+    display: flex;
+    align-items: center;
+    height: 72px;
+}
+
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo {
+    text-decoration: none;
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+
+}
+
+.logo span {
+    color: #2E2F42
+}
+
+.nav a {
+    display: block;
+    padding: 24px 0;
+    color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav a:hover {
+    color: #404bbf;
+}
+
+.nav a:active {
+    color: #404bbf;
+}
+
+.nav a:focus {
+    color: #404bbf;
+}
+
+.contact-list {
+    display: flex;
+    gap: 40px;
+    font-style: normal;
+    margin-left: auto;
+}
+
+.contact-list a:hover,
+.contact-list a:focus {
+    color: #404bbf;
+}
+
+address {
+    font-style: normal;
+    margin-left: auto;
+}
+
+address a:hover,
+address a:focus {
+    color: #404bbf;
+}
+
+address a {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+}
+
+address {
+    font-style: normal;
+}
+
+address a:hover,
+address a:focus {
+    color: #404bbf;
+}
+
+address a {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.contact {
+    margin-left: auto;
+}
