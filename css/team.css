@@ -16,9 +16,9 @@
 .team-card {
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08),
-        0 1px 1px rgba(46, 47, 66, 0.16),
-        0 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16),
+        0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-name {
@@ -62,8 +62,8 @@
 .social-list {
     display: flex;
     justify-content: center;
-    gap: 12px;
-    margin: 24px auto 0;
+    gap: 24px;
+    margin: 8px auto 0;
     padding: 0;
     list-style: none;
 }
@@ -83,7 +83,7 @@
     display: block;
     width: 16px;
     height: 16px;
-    fill: #000000;
+    fill: #f4f4fd;
 }
 
 .social-link:hover,
